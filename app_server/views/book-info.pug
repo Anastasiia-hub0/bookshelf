@@ -1,0 +1,64 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1 The Hobbit
+  .row
+    .col-12.col-lg-9
+      .row
+        .col-12.col-md-6
+          p.rating
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star
+          p J.R.R. Tolkien
+          .card
+            .card-body
+              h2.card-title Book details
+              p.card-text Author: J.R.R. Tolkien
+              p.card-text Genre: Fantasy
+              p.card-text Published: 1937
+              p.card-text Date read: 12 March 2026
+        .col-12.col-md-6
+          .card
+            .card-body
+              h2.card-title Summary
+              p.card-text Bilbo Baggins, a hobbit who loves a quiet life, is pulled into an adventure with a wizard and thirteen dwarves to take back their treasure from the dragon Smaug.
+      .row
+        .col-12
+          .card.review-card
+            .card-body
+              a.btn.btn-primary.float-end(href='/book/review/new') Add review
+              h2.card-title Reviews
+              .row.review
+                .col-12.review-header
+                  span.rating
+                    i.fa.fa-star
+                    i.fa.fa-star
+                    i.fa.fa-star
+                    i.fa.fa-star
+                    i.fa.fa-star
+                  span.reviewAuthor &nbsp;Anastasiia Tkachenko
+                  small.reviewTimestamp &nbsp;14 March 2026
+                .col-12
+                  p A lovely, easy read. Great story and funny characters.
+              .row.review
+                .col-12.review-header
+                  span.rating
+                    i.fa.fa-star
+                    i.fa.fa-star
+                    i.fa.fa-star
+                    i.fa.fa-star
+                    i.fa.fa-star-o
+                  span.reviewAuthor &nbsp;John Murphy
+                  small.reviewTimestamp &nbsp;2 April 2026
+                .col-12
+                  p Good book, but the middle part is a bit slow.
+    .col-12.col-lg-3
+      p.lead
+        | The Hobbit is on BookShelf because someone has read it and shared what they thought.
+      p
+        | If you have read it too, please leave a review and a rating.

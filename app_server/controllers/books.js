@@ -1,11 +1,11 @@
 /* GET 'home' page - list of books */
 const booklist = function(req, res){
-    res.render('index', { title: 'Home' });
+    res.render('books-list', { title: 'Home' });
   };
   
   /* GET 'Book info' page */
   const bookInfo = function(req, res){
-    res.render('index', { title: 'Book info' });
+    res.render('book-info', { title: 'Book info' });
   };
   
   /* GET 'Add review' page */
@@ -18,4 +18,3 @@ const booklist = function(req, res){
     bookInfo,
     addReview
   };
-  

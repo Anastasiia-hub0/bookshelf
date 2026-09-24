@@ -1,0 +1,75 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1 BookShelf
+        small &nbsp;Keep track of the books you read
+  .row
+    .col-12.col-md-8
+      .card
+        .card-body
+          h4
+            a(href='/book') The Hobbit
+            small &nbsp;
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+            span.badge.rounded-pill.bg-secondary.float-end Fantasy
+          p.author J.R.R. Tolkien
+          .details
+            span.badge.bg-warning.text-dark Read: 12 March 2026
+            | &nbsp;
+            span.badge.bg-warning.text-dark 2 reviews
+      .card
+        .card-body
+          h4
+            a(href='/book') 1984
+            small &nbsp;
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star-o
+            span.badge.rounded-pill.bg-secondary.float-end Dystopian
+          p.author George Orwell
+          .details
+            span.badge.bg-warning.text-dark Read: 2 May 2026
+            | &nbsp;
+            span.badge.bg-warning.text-dark 1 review
+      .card
+        .card-body
+          h4
+            a(href='/book') The Martian
+            small &nbsp;
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star-o
+            span.badge.rounded-pill.bg-secondary.float-end Science fiction
+          p.author Andy Weir
+          .details
+            span.badge.bg-warning.text-dark Read: 20 June 2026
+            | &nbsp;
+            span.badge.bg-warning.text-dark 3 reviews
+      .card
+        .card-body
+          h4
+            a(href='/book') Pride and Prejudice
+            small &nbsp;
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star
+              i.fa.fa-star-o
+              i.fa.fa-star-o
+            span.badge.rounded-pill.bg-secondary.float-end Classic
+          p.author Jane Austen
+          .details
+            span.badge.bg-warning.text-dark Read: 1 August 2026
+            | &nbsp;
+            span.badge.bg-warning.text-dark 1 review
+    .col-12.col-md-4
+      p.lead BookShelf helps you keep a record of the books you have read. Give each book a rating from 1 to 5 and write a short review, so you always remember what you thought of it.
