@@ -1,11 +1,11 @@
 /* GET 'Login' page */
 const login = function(req, res){
-    res.render('index', { title: 'Login' });
+    res.render('login', { title: 'Login' });
   };
   
   /* GET 'Register' page */
   const register = function(req, res){
-    res.render('index', { title: 'Register' });
+    res.render('register', { title: 'Register' });
   };
   
   module.exports = {
